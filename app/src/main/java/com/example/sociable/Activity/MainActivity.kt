@@ -70,6 +70,7 @@ class MainActivity : AppCompatActivity() {
         // When the Activity is destroyed, release our MediaPlayer and set it to null.
         mMediaPlayer!!.release()
         mMediaPlayer = null
+
     }
 }
 
